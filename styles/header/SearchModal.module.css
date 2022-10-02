@@ -1,0 +1,23 @@
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 250px;
+    width: 20%;
+    border: 3px solid rgb(138, 138, 122);
+    background-color: rgb(238, 228, 215);
+    border-radius: .5rem;
+    box-shadow: 1px 1px 1px yellowgreen;
+    top: 25%;
+    left: 45%;
+    
+
+
+}
+
+.input {
+    background-color: aquamarine;
+    margin-top: .5rem;
+}

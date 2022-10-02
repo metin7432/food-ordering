@@ -1,0 +1,33 @@
+.menu {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-center;
+    list-style: none;
+   
+    
+}
+
+
+.menu li {
+    margin-right: .6rem;
+    
+}
+.menu li:hover {
+    transform: translate(.06rem, 0);
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.menu a:hover{
+    color: greenyellow ;
+}

@@ -1,0 +1,68 @@
+.container {
+    width: 100vw;
+    height: 5.5rem;
+    background-color: var(--bg-color2);
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+.navibar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.userIco a{
+    margin-left: .5rem;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.userIco:hover{
+    transform: translate(.1rem, .02rem);
+}
+
+.cartIco a {
+    margin-left: .5rem;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.cartIco:hover{
+    transform: translate(.1rem, .02rem);
+}
+
+
+
+.btn {
+    height: 1.7rem;
+    width: 6.5rem;
+    background-color: rgb(255, 196, 33);
+    border: none;
+    border-radius: 1rem;
+    color: aliceblue;
+    margin-bottom: .6rem;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: translate(.1rem, .02rem);
+    
+}
+
+.searchBtnIco {
+font-size: 1.1rem;
+  color: aliceblue;
+}
+.searchBtn {
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+.searchBtn:hover {
+    transform: translate(.1rem, .02rem);
+}
