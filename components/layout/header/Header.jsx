@@ -3,6 +3,8 @@ import React, {useState} from "react";
 import {FaUserAlt , FaShoppingCart, FaSearch} from 'react-icons/fa'
 import HeaderCss from '../../../styles/header/Header.module.css'
 import MiddleNavbar from "./MiddleNavbar";
+import OutsideClickHandler from 'react-outside-click-handler';
+
 
 import SearchModal from "./SearchModal";
 import { SearchBackdrop } from "./SearchBackdrop";
@@ -25,7 +27,10 @@ const Header = () => {
         </div>
 
         {
-          isSearchClick && <SearchModal closeModal={setIsSearchClick} />  // metod SearchModala gonderildi
+          isSearchClick && (
+          <OutsideClickHandler onOutsideClick={() => setIsSearchClick(false)}>
+            <SearchModal closeModal={setIsSearchClick} /> 
+          </OutsideClickHandler> ) 
         }
        
      
